@@ -1,0 +1,131 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{% static '/css/sty.css'  %}" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <div class="user">
+            <img src="{% static 'images/swathi.jpg' %}">
+            <h5 class="nm">Swathi Akki</h5>
+            <p class="jb">Internship</p>
+        </div>
+        <nav class="nv">
+            <ul>
+                <li><a href="#Details">Details</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Technical Skills">Technical Skills</a></li>
+                <li><a href="#Mini-project">Mini-Project</a></li>
+                <li><a href="#Work-Experience">Work Experience</a></li>
+                <li><a href="#Project">Project Involved In Internship</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="Details" id="Details">
+        <h1 class="heading"><span>Details About Me</span></h1>
+        <div class="Row">
+            <div class="det">
+                <h3><span>Name: </span>Swathi Akki</h3>
+                <h3><span>Gender: </span>Female</h3>
+                <h3><span>Email: </span>swathiakki917@gmail.com</h3>
+                <h3><span>Phone_no: </span>6301479161</h3>
+                <h3><span>LinkedIn:</span>linkedin.com/in/a-swathi-3a2370219</h3>
+                <h3><span>Github:</span><link>github.com/Swathi-Akki</link></h3>
+              
+            </div>
+        </div>
+    </section>
+    <section class="Education" id="Education">
+        <h1 class="title"><span>Education</span></h1><br><br><br>
+        <table>
+            <tr>
+                <th>Cource</th>
+                <th>Name of the institude</th>
+                <th>University</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>Kasthuribha Gandhi Balikala Vidhyalayam </td>
+                <td>State Bord A.P.</td>
+                <td>9.8</td>
+            </tr>
+            <tr>
+                <td>INTERMEDIATE</td>
+                <td>Rajiv Gandhi University of knowledge Technologies-Ongole</td>
+                <td>Intermediate Bord A.P.</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>Rajiv Gandhi University of knowledge Technologies-Ongole</td>
+                <td>State Board</td>
+                <td>8.8</td>
+            </tr>
+        </table>
+    </section>
+    <br><br><br><br><br><br>
+    <section class="Technical Skills" id="Technical Skills">
+        <h1 class="head"><span>Technical Skills</span></h1>
+        <div>
+            <ul id="lis">
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Manual Testing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="Mini-project" id="Mini-project">
+        <h1 class="heading"><span>Mini-project</span></h1>
+        <div class="Row">
+            <div class="det">
+                <h3><span>Role: </span>Team leader</h3>
+                <h3><span>Title:</span>Image Steganography Using Python </h3>
+                <h3><span>Description: </span>Image steganography is the practice of hiding secret messages or data
+                    within an image without changing its visual appearance. In this project, we will develop
+                    an image steganography application using Python that allows users to encode secret
+                    messages within images using a secret key and decode them later.The application will use
+                    the Least Significant Bit (LSB) algorithm to encode the message within the image. This
+                    algorithm works by replacing the least significant bits of the image pixels with the bits of
+                    the message, which are then extracted later to decode the message.</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="Work-Experience" id="Work-Experience">
+        <h1 class="heading"><span>Work Experience</span></h1>
+        <div class="Row">
+            <div class="det">
+                <h3><span>Role: </span>Intern</h3>
+                <h3><span>Experience: </span> Work Experience</h3>
+                <h3><span>Organization Name:</span> Worked as Python Intern at CloudO Solutions Pvt Ltd, Hyderabad from
+                    September 2022 to March 2023.</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="Project Involved In Internship" id="Project">
+        <h1 class="heading"><span>Project Involved In Internship</span></h1>
+        <div class="Row">
+            <div class="det">
+                <h3><span>Role: </span>Intern</h3>
+                <h3><span>Title:</span>MinMaxCart </h3>
+                <h3><span>About Project: </span>It's a Ecommerce Website.</h3>
+                <h3><span>Description: </span>It is Ecommerce Website. I have hands-on Experience on Testing the
+                    Application Manually by writing test scenarios, test cases, defect reporting, perfomance
+                    testing, stress testing. Here I came to know the end to end flow of the application
+                    complete SDLC process (Software Development Life Cycle).</h3>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
